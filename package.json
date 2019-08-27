@@ -2,10 +2,10 @@
   "name": "reactpractice",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://PhillyHawk.github.io/Clicky-Game",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.1.1",
-    "homepage": "https://PhillyHawk.github.io/my-app",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
@@ -13,6 +13,8 @@
   },
   
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
