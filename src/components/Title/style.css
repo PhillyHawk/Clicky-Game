@@ -1,8 +1,18 @@
-.title {
+.jumbotron {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  color: rgb(247, 15, 216);
+  margin-bottom: 10px;
+  background-color: black;
+ 
 }
+header{
+  font-family: 'Dokdo', cursive; 
+  font-size: 4rem;
+}
+p{
+  font-family: 'Dokdo', cursive;
+}
+

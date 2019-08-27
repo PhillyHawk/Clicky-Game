@@ -3,6 +3,8 @@ import FriendCard from "./components/FriendCard/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score/Score";
 import friends from "./friends.json";
+import Title from "./components/Title"
+import "./App.css";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -18,7 +20,7 @@ class App extends Component {
     let clickedFriendIds = this.state.clickedFriendIds;
 
     if(clickedFriendIds.includes(id)){
-      this.setState({ clickedFriendIds: [], score: 0, status: "Gave Over!"});
+      this.setState({ clickedFriendIds: [], score: 0, status: "Nope! Click to try again!"});
       return;
     }else{
       clickedFriendIds.push(id)
@@ -39,11 +41,9 @@ class App extends Component {
 
   render() {
     return (
+      <div className="container">
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Clicky</h1>
-          <p className="App-intro">Try not to Click the same image twice!</p>
-        </header>
+       <Title />
         <Score total={this.state.score}
                 goal={12}
                 status={this.state.status}
@@ -59,6 +59,7 @@ class App extends Component {
 
           ))}
         </Wrapper>
+      </div>
       </div>
     );
   }
