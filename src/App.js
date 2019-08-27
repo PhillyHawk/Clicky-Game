@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import FriendCard from "./components/FriendCard/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score/Score";
 import friends from "./friends.json";
@@ -14,14 +14,15 @@ class App extends Component {
     status: ""
   };
 
-  shuffleFriend = id => {
+  shuffleScoreCard = id => {
     let clickedFriendIds = this.state.clickedFriendIds;
 
     if(clickedFriendIds.includes(id)){
-      this.setState({ clickedFriendIds: [], score: 0, stauts: "Gave Over!"});
+      this.setState({ clickedFriendIds: [], score: 0, status: "Gave Over!"});
       return;
     }else{
       clickedFriendIds.push(id)
+
       if(clickedFriendIds.length === 12){
         this.setState({score: 12, status: "You Won!", clickedFriendIds: []});
         console.log('You Win');
@@ -29,8 +30,8 @@ class App extends Component {
       }
        this.setState({ friends, clickedFriendIds, score: clickedFriendIds.length, status: " " });
 
-       for (let i =friends.length - 1; i > 0; i--) {
-         let j =Math.floor(Math.ramdon() * (i + 1));
+       for (let i = friends.length - 1; i > 0; i--) {
+         let j = Math.floor(Math.random() * (i + 1));
          [friends[i], friends[j]] = [friends[j], friends[i]];
        }
     }
@@ -50,7 +51,7 @@ class App extends Component {
         <Wrapper>
           {this.state.friends.map(friend => (
             <FriendCard
-            shuffleFriend={this.shuffleFriend}
+            shuffleScoreCard={this.shuffleScoreCard}
             id={friend.id}
             key={friend.id}
             image={friend.image}
@@ -61,11 +62,6 @@ class App extends Component {
       </div>
     );
   }
-  
-          
-       
-      
-    
 }
 
 export default App;
