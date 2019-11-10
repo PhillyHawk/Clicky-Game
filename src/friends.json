@@ -2,87 +2,64 @@
   {
     "id": 1,
     "name": "Pee-wee1",
-    "image": "https://media.giphy.com/media/bdTxWolHXUtbi/giphy.gif",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "image": "https://media.giphy.com/media/bdTxWolHXUtbi/giphy.gif"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://media.giphy.com/media/h72u2mULk7iiQ/giphy.gif",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Pee-wee2",
+    "image": "https://media.giphy.com/media/h72u2mULk7iiQ/giphy.gif"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://media.giphy.com/media/PGwU07sFqGh0c/giphy.gif",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Pee-wee3",
+    "image": "https://media.giphy.com/media/PGwU07sFqGh0c/giphy.gif"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://media.giphy.com/media/14g8PGLKen2UDe/giphy.gif",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Pee-wee4",
+    "image": "https://media.giphy.com/media/14g8PGLKen2UDe/giphy.gif"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://media.giphy.com/media/7phOEPVnA8Ryg/giphy.gif",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Pee-wee5",
+    "image": "https://media.giphy.com/media/7phOEPVnA8Ryg/giphy.gif"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://media.giphy.com/media/Q9VY7WDsbPLos/giphy.gif",
-    "occupation": "Student",
-    "location": "Bluffington"
-  },
+    "name": "Pee-wee6",
+    "image": "https://media.giphy.com/media/Q9VY7WDsbPLos/giphy.gif"
+  // },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://media.giphy.com/media/TOfORBfvufiAU/giphy.gif",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Pee-wee7",
+    "image": "https://media.giphy.com/media/TOfORBfvufiAU/giphy.gif"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "https://media.giphy.com/media/ZOOJpmdrfFeKs/giphy.gif",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Pee-wee8",
+    "image": "https://media.giphy.com/media/ZOOJpmdrfFeKs/giphy.gif"
   },
   {
     "id": 9,
-    "name": "Courage",
-    "image": "https://media.giphy.com/media/xT0GqrJNbZkRcr2Jgc/giphy.gif",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Pee-wee9",
+    "image": "https://media.giphy.com/media/xT0GqrJNbZkRcr2Jgc/giphy.gif"
   },
   {
     "id": 10,
-    "name": "Doug Funnie",
-    "image": "https://media.giphy.com/media/fdw6skR44P7Py/giphy.gif",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Pee-wee10",
+    "image": "https://media.giphy.com/media/fdw6skR44P7Py/giphy.gif"
   },
   {
     "id": 11,
-    "name": "Bugs Bunny",
-    "image": "https://media.giphy.com/media/qOvfY5O8y824w/giphy.gif",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Pee-wee11",
+    "image": "https://media.giphy.com/media/qOvfY5O8y824w/giphy.gif"
+    
   },
   {
     "id": 12,
-    "name": "Johnny Bravo",
-    "image": "https://media.giphy.com/media/9dpLjoZgtFRGU/giphy.gif",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
-  }
+    "name": "Pee-wee12",
+    "image": "https://media.giphy.com/media/9dpLjoZgtFRGU/giphy.gif"
+    
 ]
 
 
